@@ -1,0 +1,52 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+}
+
+header {
+    display: flex;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    text-align: right;
+    background-color: #333;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: flex; /* Change to inline-block */
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    flex: 0; /* Take remaining space */
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in section width */
+}
+
+.event-card {
+    border: 1px solid #ddd; /* Example border for event cards */
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+/* Add more styling as needed */
